@@ -8,6 +8,5 @@ count=0
 for x in circular_linked_list:
     if x not in output:
         output.append(x)
-        count+=1
-print(count)
-print(output)
+for x in output:
+    print(x,end=" ")
