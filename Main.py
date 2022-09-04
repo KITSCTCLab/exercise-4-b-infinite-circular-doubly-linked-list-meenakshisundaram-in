@@ -4,7 +4,8 @@ length_of_circular_linked_list = int(input())
 circular_linked_list = list(map(int,input().strip().split(" ")))
 # Write your code here
 output=[]
-count=0
+for x in range(3):
+    output.append(circular_linked_list[x])
 for x in circular_linked_list:
     if x not in output:
         output.append(x)
