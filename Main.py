@@ -5,8 +5,8 @@ circular_linked_list = list(map(int,input().strip().split(" ")))
 # Write your code here
 output=[]
 
-for x in range(3):
-    output.append(circular_linked_list[x])
+#for x in range(3):
+   # output.append(circular_linked_list[x])
     
 for x in circular_linked_list:
     if x not in output:
